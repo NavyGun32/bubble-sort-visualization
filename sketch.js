@@ -1,9 +1,4 @@
-/**
- * Akbar Hasadi Putra Siregar
- * 6/20/2021 10:45PM
- * https://github.com/akbarhps
- */
-
+//NavyGun32
 let array = shuffleArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 let run = false;
 
@@ -120,5 +115,5 @@ function shuffleArray(array) {
 }
 
 function openGithub() {
-    window.open('https://www.github.com/akbarhps', '_blank');
+    window.open('https://www.github.com/navygun32', '_blank');
 }
