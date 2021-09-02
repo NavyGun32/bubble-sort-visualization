@@ -38,8 +38,8 @@ function sizeChangeListener() {
         let value = Number(event.target.value);
         if (value < 10) {
             value = 10;
-        } else if (value > 100) {
-            value = 100;
+        } else if (value > 50) {
+            value = 50;
         }
         sizeInput.value = value;
         recreateArray(value);
