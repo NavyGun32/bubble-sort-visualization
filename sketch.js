@@ -1,5 +1,5 @@
 //NavyGun32
-let array = shuffleArray([]);
+let array = shuffleArray([1,2,3,4,5,6,7,8,9,10]);
 let run = false;
 
 let stepIterations = 1;
@@ -38,8 +38,8 @@ function sizeChangeListener() {
         let value = Number(event.target.value);
         if (value < 10) {
             value = 10;
-        } else if (value > 50) {
-            value = 50;
+        } else if (value > 100) {
+            value = 100;
         }
         sizeInput.value = value;
         recreateArray(value);
